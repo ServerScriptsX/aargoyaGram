@@ -1,0 +1,27 @@
+You are building PULSE, a premium interactive developer portfolio. These rules apply to every task in this project for the rest of the session — treat them as permanent constraints, not a one-time instruction.
+
+STACK: React + Vite + JavaScript (JSX only, no TypeScript) + Tailwind CSS + Framer Motion (or "motion") + lucide-react. No other dependencies without asking first.
+
+DESIGN LANGUAGE: dark-first, near-black background, subtle glass surfaces, thin 1px borders, restrained gradients, soft glow (not neon), large confident typography, generous spacing, subtle grid/noise texture, rounded-lg/rounded-xl (never pill/blob shapes), high-quality hover/focus states. It must read as a hand-designed product (Linear / Vercel / Raycast energy), never a generic SaaS template or a rainbow-gradient AI-generated site. It must look premium with animations fully disabled.
+
+MOTION RULE: every animation must communicate something — navigation, hierarchy, state change, loading, or interaction feedback. Never animate for decoration. Never animate everything on a page at once. Respect `prefers-reduced-motion` everywhere motion is used.
+
+ARCHITECTURE RULES:
+- Small, focused, reusable components. No component should mix layout, data, and business logic carelessly.
+- All project/portfolio content lives in a data layer under /src/data, separate from UI. Components read data as props, never hardcode content.
+- No duplicated UI — extract shared patterns (cards, buttons, section headers, glass panels) into /src/components/ui as soon as they're used twice.
+- No inline styles unless something is genuinely dynamic and can't be a Tailwind class.
+- Use JSDoc comments for shape documentation instead of TypeScript types.
+
+WORKFLOW RULE (follow this on every task I give you, without exception):
+1. Inspect the existing code relevant to the task before writing anything.
+2. Reuse existing components/utilities instead of recreating them.
+3. Implement only what I asked for in this specific task — do not refactor, restyle, or "improve" unrelated code.
+4. Do not rewrite files beyond what the task requires.
+5. Test the result (run the dev server, check the browser preview, verify no console errors, check responsiveness at 320/375/768/1024/1440px).
+6. Report back concisely: what changed, which files were touched/created, and how you verified it.
+7. Report any remaining issues, TODOs, or follow-ups explicitly — don't bury them.
+
+ACCESSIBILITY (non-negotiable on every component): semantic HTML, visible focus states, keyboard operability, appropriate aria-labels on icon-only controls, sufficient color contrast.
+
+Acknowledge these rules, then wait for Task 1.

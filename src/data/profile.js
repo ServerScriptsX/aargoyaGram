@@ -1,0 +1,73 @@
+export const studioProfile = {
+	brand: {
+		name: 'PlayState',
+		descriptor: 'STUDIOS',
+	},
+	navigation: [
+		{ label: 'Work', href: '#work' },
+		{ label: 'How we work', href: '#approach' },
+		{ label: 'Say hello', href: '#contact' },
+	],
+	hero: {
+		headlineStart: 'Make the next',
+		headlineMiddle: 'click feel',
+		headlineWords: ['good.', 'responsive.', 'comfy.'],
+		description: 'We build clear Roblox interfaces for shops, inventories, quests, and the controls players use every session.',
+		action: 'See the UI products',
+		note: 'Built for Roblox players',
+		worldLabel: 'PLAYSTATE / WORLD 01',
+		prompt: 'Explore',
+		toastTitle: 'Nice choice!',
+		toastBody: 'Item added to your bag.',
+		studioLabel: 'PlayState Studios',
+		artCaption: 'Roblox UI in play',
+	},
+	stats: {
+		eyebrow: 'PLAYSTATE BY THE NUMBERS',
+		items: [
+			{ value: '45+', label: 'customers' },
+			{ value: '4', suffix: ' years', label: 'of experience' },
+			{ value: '25M+', label: 'player visits contributed to' },
+		],
+	},
+	gallery: {
+		eyebrow: 'PLAYSTATE STUDIOS / UI PRODUCTS',
+		heading: 'Roblox interfaces',
+		headingAccent: 'made for play.',
+		description: 'Three interactive builds: a café shop, player settings, and an adventure HUD.',
+		filterLabel: 'Filter UI products by style',
+		itemLabel: 'product',
+		itemLabelPlural: 'products',
+		filters: [
+			{ value: 'all', label: 'All styles' },
+			{ value: 'Cartoony', label: 'Cartoony' },
+			{ value: 'Minimal', label: 'Minimal' },
+			{ value: 'Arcade HUD', label: 'Arcade HUD' },
+		],
+	},
+	approach: {
+		eyebrow: 'HOW WE BUILD',
+		heading: 'Clear to use.',
+		headingAccent: 'Made for the game.',
+		description: 'We check every screen against the moment it serves: can a player read it, act, and get back to the game?',
+		workflowTitle: 'Built in Roblox Studio.',
+		workflowDescription: 'We map the player flow, reuse interface pieces, then check controls and layouts on phone and desktop.',
+	},
+	focusAreas: [
+		'Shop & inventory screens',
+		'HUDs that stay out of the way',
+		'Quest and reward flows',
+	],
+	contact: {
+		eyebrow: 'CONTACT PLAYSTATE',
+		heading: 'Building a Roblox game?',
+		headingAccent: 'Let’s talk UI.',
+		description: 'Tell us about your project and the screens you want to build.',
+		action: 'Get in touch',
+		email: 'serverscriptsx@gmail.com',
+	},
+	footer: {
+		note: 'PlayState Studios / Roblox UI / UX',
+		backToTop: 'Back to top',
+	},
+};
